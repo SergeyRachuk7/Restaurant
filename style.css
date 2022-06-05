@@ -1,16 +1,19 @@
 body {
   margin: 0; 
   font-family: 'Open Sans', sans-serif;  
-}
-
+} 
 
 .container {
-  margin: 0px 166px; 
-
+  margin: 0px 165px;
 }
 
+
+.histor-y { 
+  margin: 0px 166px; 
+} 
+
 .header {
-   background-image: url('/img/bg.jpg'); 
+   background-image: url('/img/bg\ .jpg'); 
    height: 100vh; 
    background-repeat: no-repeat; 
    background-size: cover;
@@ -200,7 +203,8 @@ body {
 }
 
 .history {
-  margin-top: 165px;
+  margin-top: 165px; 
+  padding-bottom: 200px;
 }
 
 .history-title {
@@ -272,4 +276,75 @@ body {
   z-index: 999;
   top: 245px;
   left: 480px;
+} 
+
+.black-block {
+  background-image: url('/img/balack-bg.jpg'); 
+  padding: 80px 0;
+
+}
+
+.left-title { 
+  color: #d67e34;
+  font-family: 'Tinos', serif;
+  font-size: 52px; 
+  font-weight: 400; 
+  
+  margin-bottom: 20px;
+} 
+
+.left-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.right-btn {
+  background-color: #ff7400; 
+  color: #fff;
+  text-decoration: none; 
+  padding: 14px 17px; 
+  font-weight: 700; 
+
+}
+
+.block-holder {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.dishels-title {
+  color: #d67e34;
+  font-family: 'Tinos', serif;
+  font-size: 52px; 
+  font-weight: 400; 
+  text-align: center;
+  padding-top: 132px;
+  margin-bottom: 140px;
+}
+
+.dishels-title span {
+  color: #d67e34;
+} 
+
+.burgers {
+  display: flex; 
+  justify-content: center;
+}
+
+.burger-item {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 30px;
+}
+
+.burgers-image {
+  margin-right: 20px;
+}
+
+.burger-text {
+  font-family: 'Tinos', serif;
+  font-size: 25px; 
+  margin-left: 20px;  
 }
